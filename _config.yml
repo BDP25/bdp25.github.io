@@ -1,0 +1,8 @@
+title: Big Data Project 2025
+description: This website summarizes all projects of students at the Zurich University of Applied Sciences (ZHAW) of 2025 in the Big Data Project course.
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
