@@ -30,7 +30,7 @@ Welcome! Each project group will submit one **Markdown blog post** summarizing y
    - Visualizations (images, tables)
    - Key results and conclusion
 
-5. **Submit via pull request**, or send your `.md` file to the instructor.
+5. **Submit via pull request**. **DEADLINE: 01.06.2025**
 
 ## ✅ Tips
 
