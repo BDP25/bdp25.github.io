@@ -13,7 +13,9 @@ Our approach avoids supervised deep learning models, which require high-resoluti
 
 The image below shows a schematic process of the image acquisition and processing
 
-![Process](/assets/img/2025-05-19-group03-deepgreen-process.svg)
+<div style="text-align: center;">
+  <img src="/assets/img/2025-05-19-group03-deepgreen-process.svg" alt="Process" style="width: 80%; max-width: 500px;">
+</div>
 
 
 ### Acquiring the Images
@@ -22,8 +24,12 @@ We applied an Area of Interest (AOI) segmentation to maintain the maximum spatia
 
 Clouds are a significant issue in optical satellite imagery. Although Sentinel Hub provides cloud coverage estimates, we found them to be unreliable. 
 
-![Clouds](/assets/img/2025-05-19-group03-deepgreen-clouds.jpg)
-*example case where the Sentinel API reports 18.88 % cloud coverage*
+<div style="text-align: center;">
+  <img src="/assets/img/2025-05-19-group03-deepgreen-clouds.jpg" alt="Clouds" style="width: 80%; max-width: 500px;">
+  <p style="font-size: 0.9em;">
+  <em>Example case where the Sentinel API reports 18.88% cloud coverage</em>
+  </p>
+</div>
 
 Therefore we had to calculate the actual coverage and only used images with **less than 20 % coverage**. 
 
