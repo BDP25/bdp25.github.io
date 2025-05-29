@@ -13,7 +13,7 @@ Our approach avoids supervised deep learning models, which require high-resoluti
 
 The image below shows a schematic process of the image acquisition and processing
 
-![Process](../assets/img/2025-05-19-group03-deepgreen-process.svg)
+![Process](/assets/img/2025-05-19-group03-deepgreen-process.svg)
 
 
 ### Acquiring the Images
@@ -22,7 +22,7 @@ We applied an Area of Interest (AOI) segmentation to maintain the maximum spatia
 
 Clouds are a significant issue in optical satellite imagery. Although Sentinel Hub provides cloud coverage estimates, we found them to be unreliable. 
 
-![Clouds](../assets/img/2025-05-19-group03-deepgreen-clouds.jpg)
+![Clouds](/assets/img/2025-05-19-group03-deepgreen-clouds.jpg)
 *example case where the Sentinel API reports 18.88 % cloud coverage*
 
 Therefore we had to calculate the actual coverage and only used images with **less than 20 % coverage**. 
@@ -45,12 +45,12 @@ Each land cover class was encoded with an RGB value.
 
 By combining these masks a composite land cover image was produced, as illustrated in the gif.
 
-![Result Before](../assets/img/2025-05-19-group03-deepgreen-gif-before.gif)
+![Result Before](/assets/img/2025-05-19-group03-deepgreen-gif-before.gif)
 *7 year evolution in Zurich (raw)*
 
 As one can see, it doesn't look quite right yet. Apart from clouds blocking parts of the image, the most common misclassification cases are shown below.
 
-![Misclassifications](../assets/img/2025-05-19-group03-deepgreen-misclassification.jpg)
+![Misclassifications](/assets/img/2025-05-19-group03-deepgreen-misclassification.jpg)
 
 - Snow-covered areas cover green space (left)
 
@@ -71,7 +71,7 @@ To tackle these issues, we implemented 2 aggregation methods:
 
 By applying these aggregation methods we achieved a more stable visual representation of the evolution:
 
-![Result After](../assets/img/2025-05-19-group03-deepgreen-gif-after.gif)
+![Result After](/assets/img/2025-05-19-group03-deepgreen-gif-after.gif)
 *7 year evolution in Zurich (with aggregation)*
 
 ## Finally, usable images but...
@@ -80,7 +80,7 @@ This meant that trying to learn anything meaningful on the evolution of these cl
 
 And it was. Visualized below is the evolution of all classes over the whole time-window. 
 
-![Evolution Plot](../assets/img/2025-05-19-group03-deepgreen-plot.jpg)
+![Evolution Plot](/assets/img/2025-05-19-group03-deepgreen-plot.jpg)
 
 Despite minor seasonal variations and short-term fluctuations, no clear long-term trend such as a steady increase in built-up area or decline in vegetation is evident from the data over this time-period. The Zurich area shows relatively low levels of built-up expansion, suggesting limited recent construction activity as the space within the city is already quite limited.
 
