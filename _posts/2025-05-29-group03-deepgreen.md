@@ -25,7 +25,7 @@ We applied an Area of Interest (AOI) segmentation to maintain the maximum spatia
 Clouds are a significant issue in optical satellite imagery. Although Sentinel Hub provides cloud coverage estimates, we found them to be unreliable. 
 
 <div style="text-align: center;">
-  <img src="/assets/img/2025-05-19-group03-deepgreen-clouds.jpg" alt="Clouds" style="width: 80%; max-width: 500px;">
+  <img src="/assets/img/2025-05-19-group03-deepgreen-clouds.jpg" alt="Clouds" style="width: 60%; max-width: 500px;">
   <p style="font-size: 0.9em;">
   <em>Example case where the Sentinel API reports 18.88% cloud coverage</em>
   </p>
@@ -51,12 +51,21 @@ Each land cover class was encoded with an RGB value.
 
 By combining these masks a composite land cover image was produced, as illustrated in the gif.
 
-![Result Before](/assets/img/2025-05-19-group03-deepgreen-gif-before.gif)
-*7 year evolution in Zurich (raw)*
+
+<div style="text-align: center;">
+  <img src="/assets/img/2025-05-19-group03-deepgreen-gif-before.gif" alt="Result Before" style="width: 100%; max-width: 500px;">
+  <p style="font-size: 0.9em;">
+  <em>7 year evolution in Zurich (raw)</em>
+  </p>
+</div>
+
 
 As one can see, it doesn't look quite right yet. Apart from clouds blocking parts of the image, the most common misclassification cases are shown below.
 
-![Misclassifications](/assets/img/2025-05-19-group03-deepgreen-misclassification.jpg)
+
+<div style="text-align: center;">
+  <img src="/assets/img/2025-05-19-group03-deepgreen-misclassification.jpg" alt="Misclassifications" style="width: 100%; max-width: 500px;">
+</div>
 
 - Snow-covered areas cover green space (left)
 
@@ -77,8 +86,13 @@ To tackle these issues, we implemented 2 aggregation methods:
 
 By applying these aggregation methods we achieved a more stable visual representation of the evolution:
 
-![Result After](/assets/img/2025-05-19-group03-deepgreen-gif-after.gif)
-*7 year evolution in Zurich (with aggregation)*
+
+<div style="text-align: center;">
+  <img src="/assets/img/2025-05-19-group03-deepgreen-gif-after.gif" alt="Result After" style="width: 100%; max-width: 500px;">
+  <p style="font-size: 0.9em;">
+  <em>7 year evolution in Zurich (with aggregation)</em>
+  </p>
+</div>
 
 ## Finally, usable images but...
 Now that we had a good data basis, we came across a different problem. Due to our restrictions on cloud coverage and the aggregation of images, we lost a big chunk of data. Over the window of **7 years** we originally had *216 images* but after removing the cloudy ones and applying our aggregation methods we only had *106 images* left. Additionally the timestamps of the leftover images were irregular.\
