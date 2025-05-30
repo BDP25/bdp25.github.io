@@ -153,6 +153,11 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
     <h3>⏱️ Avg. Session Duration</h3>
     <p id="session-duration">Loading...</p>
   </div>
+
+  <div class="metric-box">
+    <h3>🌇 Most visited city</h3>
+    <p id="session-duration">Loading...</p>
+  </div>
 </div>
 
 <script>
@@ -162,6 +167,11 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
 
   fetch('https://api.viberadar.io/metrics/avg-session-duration').then(res => res.json()).then(data => {
     document.getElementById('session-duration').textContent = Math.round(data["session-duration"]) + ' seconds';
+  });
+
+  fetch('https://api.viberadar.io/metrics/top-city').then(res => res.json()).
+  then(data => {
+    document.getElementById('top-city').textContent = data["top-city"];
   });
 </script>
 
