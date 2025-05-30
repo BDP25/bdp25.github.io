@@ -156,7 +156,7 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
 
   <div class="metric-box">
     <h3>🌇 Most visited city</h3>
-    <p id="session-duration">Loading...</p>
+    <p id="top-city">Loading...</p>
   </div>
 </div>
 
