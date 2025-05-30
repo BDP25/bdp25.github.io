@@ -1,12 +1,8 @@
----
-layout: post
-title: "Your Web App Is Live - Now What? How We Got Our First Users"
-author: Michel Philippin & Leo Schöchli
----
+# Your Web App Is Live - Now What? How We Got Our First Users
 
 After weeks (or months) of hard work building your web app, shipping it live can feel like the finish line. But in reality, **it's just the start**. This post outlines what we did *after* we launched [VibeRadar.io](https://viberadar.io) - our interactive globe-based app that maps the emotional "vibe" of cities using Spotify playlists and YouTube street footage.
 
-![Screenshot of VibeRadar](/assets/img/2025-05-30-group05-viberadar-screenshot.png)
+![Screenshot of VibeRadar](./screenshot.png)
 
 We’ll walk through adding analytics (without the need for a cookie banner), getting those precious first users, and learning from the data that came in.
 
@@ -21,7 +17,7 @@ We chose to use [PostHog](https://posthog.com), an open-source analytics platfor
 Like most analytics tools, PostHog uses cookies to track users across sessions.
 Try going to the first website which comes to your mind in Incognito mode. You’ll likely see a **cookie banner** asking for consent to track you. It’s annoying, right?
 
-![Cookie Banners](/assets/img/2025-05-30-group05-viberadar-cookie-banners.png)
+![Cookie Banners](./cookie-banners.png)
 
 **We hate cookie banners too.** But here’s why they exist:
 
@@ -153,6 +149,11 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
     <h3>⏱️ Avg. Session Duration</h3>
     <p id="session-duration">Loading...</p>
   </div>
+
+  <div class="metric-box">
+    <h3>🌇 Most visited city</h3>
+    <p id="session-duration">Loading...</p>
+  </div>
 </div>
 
 <script>
@@ -162,6 +163,11 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
 
   fetch('https://api.viberadar.io/metrics/avg-session-duration').then(res => res.json()).then(data => {
     document.getElementById('session-duration').textContent = Math.round(data["session-duration"]) + ' seconds';
+  });
+
+  fetch('https://api.viberadar.io/metrics/top-city').then(res => res.json()).
+  then(data => {
+    document.getElementById('top-city').textContent = data["top-city"];
   });
 </script>
 
