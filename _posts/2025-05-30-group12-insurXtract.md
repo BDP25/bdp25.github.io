@@ -25,8 +25,9 @@ Our goal was to tackle a very real, very local problem. Swiss insurers are overw
 InsuXtract processes both native and scanned PDFs, extracting key information like contract terms, coverage amounts, and the name of the insurer. This data is then made available to consultants through a web-based dashboard, where it can be reviewed, compared, and managed with ease.
 
 The real challenge, though, wasn’t just getting the system to read documents. It had to do so accurately, intelligently, and in full compliance with Swiss data protection laws — all while scaling efficiently and running multiple microservices without failure.
-
-<img src="/assets/img/2025-05-30-group12-insurXract.png" width="700" alt="Core Concept" style="display: block; margin: 0 auto;">
+<p align="center">
+<img src="/assets/img/2025-05-30-group12-insurXract.png" width="700" alt="Core Concept">
+</p>
 
 ---
 
