@@ -6,7 +6,7 @@ author: Michel Philippin & Leo Schöchli
 
 After weeks (or months) of hard work building your web app, shipping it live can feel like the finish line. But in reality, **it's just the start**. This post outlines what we did *after* we launched [VibeRadar.io](https://viberadar.io) - our interactive globe-based app that maps the emotional "vibe" of cities using Spotify playlists and YouTube street footage.
 
-![Screenshot of VibeRadar](/assets/img/2025-05-31-group05-viberadar-screenshot.png)
+![Screenshot of VibeRadar](/assets/img/2025-05-30-group05-viberadar-screenshot.png)
 
 We’ll walk through adding analytics (without the need for a cookie banner), getting those precious first users, and learning from the data that came in.
 
@@ -21,7 +21,7 @@ We chose to use [PostHog](https://posthog.com), an open-source analytics platfor
 Like most analytics tools, PostHog uses cookies to track users across sessions.
 Try going to the first website which comes to your mind in Incognito mode. You’ll likely see a **cookie banner** asking for consent to track you. It’s annoying, right?
 
-![Cookie Banners](/assets/img/2025-05-31-group05-viberadar-cookie-banners.png)
+![Cookie Banners](/assets/img/2025-05-30-group05-viberadar-cookie-banners.png)
 
 **We hate cookie banners too.** But here’s why they exist:
 
