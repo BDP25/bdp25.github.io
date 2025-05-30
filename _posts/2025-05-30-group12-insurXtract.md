@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "insurXtract: AI-Powered Insurance Policy Extraction Platform"
+title: "InsurXtract: AI-Powered Insurance Policy Extraction Platform"
 author: Michael Güntensperger, Philipp Schiess, Selina Schlegel
 ---
 
 # Automating the Pain: How AI Transforms Insurance Document Processing in Switzerland
 
-**Manual insurance paperwork is stuck in the last century. Can AI finally fix it without compromising data privacy?**
-
----
+Manual insurance paperwork is stuck in the last century. Can AI finally fix it without compromising data privacy?
 
 **Picture this**: You're switching your car insurance. You send in your old policy PDF. Behind the scenes, an overworked consultant opens the document, scans for key details like premiums, deductibles, and coverage limits, and retypes them into the system. Multiply that by thousands of customers every month and you get a good sense of the inefficiency at play.
 
@@ -19,11 +17,11 @@ But this isn’t only a productivity issue. It’s costly, error-prone, and clea
 
 ## From PDFs to Policy Insights, Automatically
 
-As part of the Big Data module in the BSc Data Science program at ZHAW, we developed InsuXtract: a scalable pipeline that automatically extracts structured data from unstructured insurance documents.
+As part of the Big Data module in the BSc Data Science program at ZHAW, we developed insuXtract: a scalable pipeline that automatically extracts structured data from unstructured insurance documents.
 
 Our goal was to tackle a very real, very local problem. Swiss insurers are overwhelmed by paperwork, but strict data privacy laws mean most international AI tools aren’t an option.
 
-InsuXtract processes both native and scanned PDFs, extracting key information like contract terms, coverage amounts, and the name of the insurer. This data is then made available to consultants through a web-based dashboard, where it can be reviewed, compared, and managed with ease.
+insuXtract processes both native and scanned PDFs, extracting key information like contract terms, coverage amounts, and the name of the insurer. This data is then made available to consultants through a web-based dashboard, where it can be reviewed, compared, and managed with ease.
 
 The real challenge, though, wasn’t just getting the system to read documents. It had to do so accurately, intelligently, and in full compliance with Swiss data protection laws — all while scaling efficiently and running multiple microservices without failure.
 
@@ -36,13 +34,13 @@ The real challenge, though, wasn’t just getting the system to read documents. 
 
 ## What Powers the System?
 
-Here’s a quick breakdown of how InsuXtract works:
+Here’s a quick breakdown of how insuXtract works:
 
 **Step 1: Upload**  
 Customers receive a secure, tokenized link to upload their documents. No login is required.
 
 **Step 2: Text extraction**  
-Digital PDFs are parsed using [PyPDF2](https://pypi.org/project/PyPDF2/), while scanned ones go through [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) at 600 DPI, optimized for German.
+Digital PDFs are parsed using *[PyPDF2](https://pypi.org/project/PyPDF2/)*, while scanned ones go through [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) at 600 DPI, optimized for German.
 
 **Step 3: NLP classification**  
 A lightweight NLP model (Flair) determines whether the document is a policy or general terms (AVB) and identifies key details like the insurer and customer name.
@@ -74,7 +72,7 @@ Boolean fields (such as "covered: yes/no") were most affected by OCR issues. Non
 
 Most intelligent document platforms rely on cloud services hosted abroad, which conflicts with the Swiss Federal Act on Data Protection (DSG).
 
-InsuXtract was designed from the ground up to ensure full data residency within Switzerland. All processing occurs locally or in certified Swiss infrastructure. Customer data never leaves the country. Uploads are token-protected, LLMs run in secure containers, and MongoDB stores extracted data with full compliance. 
+insuXtract was designed from the ground up to ensure full data residency within Switzerland. All processing occurs locally or in certified Swiss infrastructure. Customer data never leaves the country. Uploads are token-protected, LLMs run in secure containers, and MongoDB stores extracted data with full compliance. 
 
 In other words, the system isn’t just efficient — it’s legally deployable in real-world Swiss environments.
 
