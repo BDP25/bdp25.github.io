@@ -26,7 +26,7 @@ InsuXtract processes both native and scanned PDFs, extracting key information li
 
 The real challenge, though, wasn’t just getting the system to read documents. It had to do so accurately, intelligently, and in full compliance with Swiss data protection laws — all while scaling efficiently and running multiple microservices without failure.
 
-![Core Concept](/assets/img/2025-05-30-group12-insurXract.png)
+<img src="/assets/img/2025-05-30-group12-insurXract.png" width="700" alt="Core Concept" style="display: block; margin: 0 auto;">
 
 ---
 
