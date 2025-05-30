@@ -25,6 +25,7 @@ Our goal was to tackle a very real, very local problem. Swiss insurers are overw
 InsuXtract processes both native and scanned PDFs, extracting key information like contract terms, coverage amounts, and the name of the insurer. This data is then made available to consultants through a web-based dashboard, where it can be reviewed, compared, and managed with ease.
 
 The real challenge, though, wasn’t just getting the system to read documents. It had to do so accurately, intelligently, and in full compliance with Swiss data protection laws — all while scaling efficiently and running multiple microservices without failure.
+
 <p align="center">
 <img src="/assets/img/2025-05-30-group12-insurXract.png" width="700" alt="Core Concept">
 </p>
@@ -111,3 +112,7 @@ We’re also adding advanced monitoring, error tracking, and alerts. These impro
 
 We’ve documented our architecture, evaluation results, and development lessons in a full technical report.  
 If you're part of a Swiss insurance provider — or simply curious about AI-powered document processing — [get in touch](mailto:schlesel@students.zhaw.ch). We’ll be happy to share the report with you.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="25" data-target="animated-image.originalImage">
+</p>
