@@ -14,7 +14,8 @@ author: Michael Güntensperger, Philipp Schiess, Selina Schlegel
 
 But this isn’t only a productivity issue. It’s costly, error-prone, and clearly outdated — especially as customers increasingly expect fast, digital services. It’s exactly the kind of challenge that **AI is built to solve**.
 
----
+<hr style="margin: 3rem auto; border: none; height: 2px; background: #ccc; width: 40%;">
+
 
 ## From PDFs to Policy Insights, Automatically
 
@@ -30,7 +31,8 @@ The real challenge, though, wasn’t just getting the system to read documents. 
 <img src="/assets/img/2025-05-30-group12-insurXract.png" width="700" alt="Core Concept">
 </p>
 
----
+<hr style="margin: 3rem auto; border: none; height: 2px; background: #ccc; width: 40%;">
+
 
 ## What Powers the System?
 
@@ -51,7 +53,7 @@ With tailored prompts for Swiss insurers like Mobiliar and Helvetia, [Meta’s L
 **Step 5: Sync and review**  
 The extracted data is saved in a PostgreSQL database and displayed via a React-based consultant dashboard.
 
----
+<hr style="margin: 3rem auto; border: none; height: 2px; background: #ccc; width: 40%;">
 
 ## How Well Does It Scale?
 
@@ -66,7 +68,7 @@ Accuracy was also strong, especially with native PDFs:
 
 Boolean fields (such as "covered: yes/no") were most affected by OCR issues. Nonetheless, numeric and textual fields held up well, even in lower-quality scans.
 
----
+<hr style="margin: 3rem auto; border: none; height: 2px; background: #ccc; width: 40%;">
 
 ## Privacy by Design, for Switzerland
 
@@ -76,7 +78,7 @@ InsuXtract was designed from the ground up to ensure full data residency within 
 
 In other words, the system isn’t just efficient — it’s legally deployable in real-world Swiss environments.
 
----
+<hr style="margin: 3rem auto; border: none; height: 2px; background: #ccc; width: 40%;">
 
 ## What We Learned
 
@@ -88,7 +90,7 @@ Standardizing data formats across insurers was another challenge. Each provider 
 
 We also learned that good monitoring isn’t optional. Tools like [Prometheus](https://prometheus.io/) or [Flower](https://flower.readthedocs.io/) would have saved us time by identifying pipeline bottlenecks earlier.
 
----
+<hr style="margin: 3rem auto; border: none; height: 2px; background: #ccc; width: 40%;">
 
 ## What’s Next?
 
@@ -102,11 +104,10 @@ Here’s what we’re planning for the next phase:
 
 We’re also adding advanced monitoring, error tracking, and alerts. These improvements will make the system more reliable, scalable, and ready for production use.
 
----
+<div style="background: #f9fafb; border-radius: 12px; padding: 2rem; text-align: center; font-style: italic; font-size: 1.1rem; margin: 2rem 0; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  “If data is the new oil, why are we still digging it up with shovels?”
+</div>
 
-> “If insurance data is the new oil, why are we still digging it up with shovels?”
-
----
 
 ## Want to Learn More?
 
