@@ -14,7 +14,7 @@ We designed a modular, containerized system that ingests, enriches, stores, and 
 
 The pipeline includes:
 
-- [**Jetstream API**](https://github.com/bluesky-social/atproto/tree/main/packages/api) + [**Apache Kafka**](https://kafka.apache.org/) for ingestion and event routing  
+- [**Jetstream API**](https://github.com/bluesky-social/jetstream) + [**Apache Kafka**](https://kafka.apache.org/) for ingestion and event routing  
 - [**langdetect**](https://pypi.org/project/langdetect/) for language detection (CPU)  
 - [**distilbert-base-uncased-finetuned-sst-2-english**](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) for sentiment analysis (GPU)  
 - [**yangheng/deberta-v3-base-absa-v1.1**](https://huggingface.co/yangheng/deberta-v3-base-absa-v1.1) for ABSA (GPU)  
