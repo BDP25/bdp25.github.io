@@ -64,6 +64,6 @@ This next step is not just a technical challenge — it’s a step toward **auto
 ## Try It Yourself
 
 - 🔎 **Live dashboard**: [bd.fs0.ch](https://bd.fs0.ch)  
-- 💻 **Codebase (cleaned)**: [github.com/BDP25/BlueskyDashboard](https://github.com/BDP25/BlueskyDashboard)
+- 💻 **Codebase**: [github.com/BDP25/BlueskyDashboard](https://github.com/BDP25/BlueskyDashboard)
 
 We built this system to show that open, real-time social media analytics are still possible — and maybe more important than ever. Bluesky offers a rare opportunity to rethink how we measure and interpret public discourse. This is our small contribution to that future.
