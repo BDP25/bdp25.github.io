@@ -102,7 +102,7 @@ We learned that getting users is a mix of **finding the right communities, timin
 
 ## Step 4: Measure What Matters
 
-As you are reading this blog, VibeRadar is still live and (hopefully) growing. These are our current stats:
+As you are reading this blog, VibeRadar is still live and (hopefully) growing. These are our current live stats:
 
 <style>
   .metrics-container {
