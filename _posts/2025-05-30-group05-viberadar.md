@@ -25,7 +25,7 @@ Try going to the first website which comes to your mind in Incognito mode. You�
 
 **We hate cookie banners too.** But here’s why they exist:
 
-Cookie (and tracking) banners are required under European laws like the ePrivacy Directive ([Directive 2002/58/EC](https://eur-lex.europa.eu/eli/dir/2002/58/oj/eng), Article 5(3)) and the GDPR ([Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng)). These laws say that you must get consent before placing non-essential cookies or using technologies that access personal data—such as IP addresses, device IDs, or behavioral profiles. (There are similar laws in other regions, like California’s CCPA.)
+Cookie (and tracking) banners are required under European laws like the ePrivacy Directive ([Directive 2002/58/EC](https://eur-lex.europa.eu/eli/dir/2002/58/oj/eng), Article 5(3)) and the GDPR ([Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng)). These laws say that you must get consent before placing non-essential cookies or using technologies that access personal data - such as IP addresses, device IDs, or behavioral profiles. (There are similar laws in other regions, like California’s CCPA.)
 
 But here’s the good news:
 
