@@ -29,11 +29,7 @@ blockquote {
 }
 </style>
 
-# ByteMentor
-
 > Ein smarter Lernbegleiter für Data Science – entwickelt mit moderner KI und einer klaren Mission.
-
----
 
 ## Inhaltsverzeichnis
 - [Einführung](#einführung)
@@ -46,7 +42,7 @@ blockquote {
 
 ## Einführung
 
-![ByteMentor Logo](../assets/logo.png)m
+![ByteMentor Logo](../assets/img/2025-31-05-group04-bytementor-logo.png)
 
 Was wäre, wenn du eine Frage zu Data Science stellst – und anstatt eines trockenen Wikipedia-Artikels bekommst du eine verständliche, freundliche Antwort, die genau auf deinen Wissensstand abgestimmt ist? **Willkommen bei ByteMentor**.
 
@@ -71,7 +67,7 @@ Und das ist noch nicht alles:
 
 ## Technische Magie im Hintergrund – einfach erklärt
 
-![Screenshot von ByteMentor](../assests/Bytementor_Screen.png)
+![Screenshot von ByteMentor](../assets/img/2025-31-05-group04-bytementor-Bytementor_Screen.png)
 
 Im Herzen von **ByteMentor** steckt eine moderne Web-App mit einem intuitiven Chatfenster.
 
@@ -109,8 +105,6 @@ Kurz: Alle, die lernen möchten – ohne Fachchinesisch, aber mit Tiefgang.
 - Vielleicht sogar eine mobile App
 
 > Gemeinsam machen wir Lernen einfacher, klarer – und ein bisschen intelligenter.
-
----
 
 *Stand: 20.05.2025  
 Bearbeitet von: azevekat, schwadam, tomicnik*
