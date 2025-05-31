@@ -22,7 +22,7 @@ The pipeline includes:
 - [**TimescaleDB**](https://www.timescale.com/) for structured, time-series-optimized metadata  
 - [**Streamlit**](https://streamlit.io/) for live ABSA sentiment visualization
 
-![Architecture](./assets/img/2025-05-31-group9-architecture.png)
+![Architecture](../assets/img/2025-05-31-group9-architecture.png)
 
 All components are orchestrated via [Docker Compose](https://docs.docker.com/compose/). We run multiple workers in parallel — for instance, separate containers for ABSA and sentiment tasks — to leverage GPU resources efficiently. Under load, the system processed up to **12,000 posts per minute**, confirming its robustness even during backlog recovery.
 
