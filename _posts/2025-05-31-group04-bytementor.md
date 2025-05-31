@@ -42,7 +42,7 @@ blockquote {
 
 ## Einführung
 
-![ByteMentor Logo](../assets/img/2025-31-05-group04-bytementor-logo.png)
+![ByteMentor Logo](/assets/img/2025-31-05-group04-bytementor-logo.png)
 
 Was wäre, wenn du eine Frage zu Data Science stellst und anstatt eines trockenen Wikipedia-Artikels bekommst du eine verständliche, freundliche Antwort, die genau auf deinen Wissensstand abgestimmt ist? **Willkommen bei ByteMentor**.
 
@@ -67,7 +67,7 @@ Und das ist noch nicht alles:
 
 ## Technische Magie im Hintergrund, einfach erklärt
 
-![Screenshot von ByteMentor](../assets/img/2025-31-05-group04-bytementor-Bytementor_Screen.png)
+![Screenshot von ByteMentor](/assets/img/2025-31-05-group04-bytementor-Bytementor_Screen.png)
 
 Im Herzen von **ByteMentor** steckt eine moderne Web-App mit einem intuitiven Chatfenster.
 
