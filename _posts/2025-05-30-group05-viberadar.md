@@ -145,7 +145,7 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
 
 <div class="metrics-container">
   <div class="metric-box">
-    <h3>👥 This Week's Users</h3>
+    <h3>👥 Users Last 7 Days</h3>
     <p id="this-weeks-users">Loading...</p>
   </div>
 
@@ -155,7 +155,7 @@ As you are reading this blog, VibeRadar is still live and (hopefully) growing. T
   </div>
 
   <div class="metric-box">
-    <h3>🌇 Most visited city</h3>
+    <h3>🌇 Most Visited City</h3>
     <p id="top-city">Loading...</p>
   </div>
 </div>
