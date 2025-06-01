@@ -28,7 +28,7 @@ We compared three strategies:
 
 A simple rule-based strategy that alternates between placing buy and sell limit orders. While it achieved a raw backtest profit of +52%, the real-world adjusted P&L dropped to ~15% due to only ~30% of orders being filled.
 
-![Alt text](./latex/assets/backtest_baseline.png)
+![Alt text](./assets/img/2025-01-01-group08-backtest_baseline.png)
 [Interactive Plot Baseline](https://bdp25.github.io/swabbler/backtest_results_bl.html)
 
 
@@ -36,15 +36,15 @@ A simple rule-based strategy that alternates between placing buy and sell limit 
 
 Our RL agent used Proximal Policy Optimization (PPO) with a 10-dimensional feature vector to dynamically adjust thresholds. Despite promising training metrics, it failed to generalize and incurred losses in live-like conditions.
 
-![Alt text](./latex/assets/backtest_rl.png)
+![Alt text](./assets/img/2025-01-01-group08-backtest_rl.png)
 [Interactive Plot PPO](https://bdp25.github.io/swabbler/backtest_results_rl.html)
 
 **GRU-Based Deep Learning Model**
 
 The GRU model uses eight engineered features and 60 minutes of price history to predict future log returns. With a +19.7% return and a Sharpe ratio of 26.5, it proved the most robust and adaptable approach in our tests. The architecture featured stacked GRU layers optimized via Optuna, and inference times remained under 1ms per bar.
 
-![Alt text](./latex/assets/gru-archtecture.png)
-![Alt text](./latex/assets/backtest_gru.png)
+![Alt text](./assets/img/2025-01-01-group08-gru-architecture.png)
+![Alt text](./assets/img/2025-01-01-group08-backtest_gru.png)
 [Interactive Plot GRU](https://bdp25.github.io/swabbler/backtest_results_gru.html)
 
 # Takeaways
