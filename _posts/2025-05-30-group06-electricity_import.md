@@ -43,7 +43,7 @@ The forecasting system is built around a robust data pipeline:
    - Multi-Layer Perceptron (MLP) classifier for surplus/deficit prediction
    - XGBoost regressor for exact volume estimation
 
-![Diagram Data Pipeline](./assets/img/2025-05-30-group06-diagram_data_pipeline.png)
+![Diagram Data Pipeline](../assets/img/2025-05-30-group06-diagram_data_pipeline.png)
 
 ## Results
 
